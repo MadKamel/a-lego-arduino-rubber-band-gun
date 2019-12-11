@@ -18,8 +18,6 @@
            3. Build the gun
            4. Shoot your friends and family (actually don't do that)
            
-           
-   Note: If you see this, then you probably shouldn't be here. This is a private repo
 
 */
 
@@ -42,7 +40,7 @@ void setup()
 
 void loop()
 {
-  // If button pressed, servo goes down. fucking logic
+  // If button pressed, servo goes down
   
   if (digitalRead(triggerpin))
   {
