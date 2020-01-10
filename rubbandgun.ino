@@ -16,7 +16,7 @@
            1. Copy-Paste this into Arduino IDE
            2. Upload to the board
            3. Build the gun
-           4. Shoot your friends and family (actually don't do that)
+           4. Shoot up some stuffed animals or something like that
            
 
 */
@@ -34,7 +34,7 @@ void setup()
 {
   // setup servo and button
   
-  pinMode(triggerpin, INPUT);
+  pinMode(triggerpin, INPUT_PULLUP); // pullup resistor built-in
   hammer.attach(9);
 }
 
